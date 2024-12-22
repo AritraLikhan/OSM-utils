@@ -18,5 +18,7 @@ npm run dev
 ```
 localhost:8070
 ```
+## Special Use
+Can be useful for embedding map in MERN projects
 
 
