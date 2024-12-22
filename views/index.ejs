@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Maps Clone</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/maplogic.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+    <div class="map-container">
+        <header>
+            <div class="nav-bar">
+                <h1 class="nav-logo">
+                    Maps Clone
+                </h1>
+                <form id="search-form" class="search-container">
+                    <input type="text" class="search" name="searchTerm" placeholder="Search location" required />
+                    <button type="submit" class="submit-btn">
+                        Search    
+                    </button>
+                </form>
+                <button id="route-btn" class="route-btn">Get Directions</button>
+            </div>
+            <div id="directions-container" class="directions-container hidden">
+                <form id="directions-form">
+                    <input type="text" class="search" id="start-location" placeholder="Start location" required />
+                    <input type="text" class="search" id="end-location" placeholder="End location" required />
+                    <button type="submit" class="submit-btn">Get Route</button>
+                    <button type="button" class="cancel-btn" id="cancel-route">Cancel</button>
+                </form>
+            </div>
+        </header>
+        <div id="map"></div>
+    </div>
+</body>
+</html>
