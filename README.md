@@ -1,6 +1,6 @@
 # OSM-utils
 ## Features
--> Finding a location on map
+-> Finding a location on map\n
 -> Viewing direction between 2 locations
 
 ## Tools needed to be installed
