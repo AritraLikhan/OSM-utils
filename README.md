@@ -9,7 +9,7 @@ Express.js, Node.js
 
 ## Commands to run
 ```
-https://github.com/AritraLikhan/OSM-utils.git
+git clone https://github.com/AritraLikhan/OSM-utils.git
 ```
 ```
 npm install
