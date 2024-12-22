@@ -1,8 +1,21 @@
-# maps-clone
-<img src="https://i.ibb.co/4gWYZ4W/Capture.png" alt="preview" />
+# OSM-utils
+## Features
+-> Finding a location on map
+-> Viewing direction between 2 locations
 
-This project was created using NodeJS, Express, and the OpenStreetMap API.
+## Tools needed to be installed
+Express.js, Node.js
 
-## Start the server
+## Commands to run
+```
+npm install
+```
+```
+npm run dev
+```
+## Open in browser
+```
+localhost:8070
+```
 
-Start the development server using 'npm run dev'.
+
