@@ -19,7 +19,7 @@ npm run dev
 ```
 ## Open in browser
 ```
-localhost:8070
+localhost:8070/directions
 ```
 ## Special Use
 Can be useful for embedding map in MERN projects
